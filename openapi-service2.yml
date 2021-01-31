@@ -1,0 +1,14 @@
+openapi: '3.0'
+info:
+  title: 'service2 API'
+  version: '0.1'
+paths:
+  /bar:
+    get:
+      responses:
+        default:
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: 'bar'

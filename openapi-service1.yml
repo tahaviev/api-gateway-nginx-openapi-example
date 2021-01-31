@@ -1,0 +1,14 @@
+openapi: '3.0'
+info:
+  title: 'service1 API'
+  version: '0.1'
+paths:
+  /foo:
+    get:
+      responses:
+        default:
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: 'foo'

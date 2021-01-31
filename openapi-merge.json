@@ -1,0 +1,17 @@
+{
+  "inputs": [
+    {
+      "inputFile": "openapi-service1.yml",
+      "pathModification": {
+        "prepend": "/api/service1"
+      }
+    },
+    {
+      "inputFile": "openapi-service2.yml",
+      "pathModification": {
+        "prepend": "/api/service2"
+      }
+    }
+  ],
+  "output": "full.json"
+}
